@@ -1,0 +1,56 @@
+body {
+	background: black;
+	display: center;
+		font-family: Bitcount Prop Single;
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	box-align: center;
+}
+
+.postcard-header {
+	display: flex;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+
+.postcard-header h1 {
+	width: 350px;
+	margin: 0%;
+}
+
+.postcard-body {
+	display: flex;
+	font-size: medium;
+}
+
+.body-left p:first-child {
+	margin-top: 0%;
+}
+
+.body-left,
+.body-right {
+	padding: 2.5%;
+}
+
+input {
+	border: none;
+	border-bottom: grey;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+.button {
+	background-color: darkgray;
+	align-self: center;
+	padding: 1%;
+}
